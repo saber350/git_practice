@@ -19,23 +19,37 @@
 8. 練習Markdown語法（可選）
 
 # Markdown語法練習區⬇️⬇️⬇️
-# H1標題
-## H2標題
-### H3標題
-### H4標題
 
-**粗體**
-*斜體*
+# H1 標題
+## H2 標題
+### H3 標題
+#### H4 標題
+---
+# 粗體與斜體
+
+**這是粗體** __這是粗體__
+
+*這是斜體* _這是粗體_
+---
+# 列表
 - 第一項
 - 第二項
   - 子項
   - 子項
-`這是程式`
+ 
+1. 第一項
+2. 第二項
+    1. 子項
+    2. 子項
+---
+# 程式碼區塊
+`這是一行程式碼`
 
-``` python
-# 這是PYTHON程式碼
-print("Hello world")
+```python
+# 這是python程式碼區塊
+print("Hello, World")
 ```
+---
 ```mermaid
 mindmap
   root ((網頁前端
@@ -65,18 +79,18 @@ mindmap
       Git
       Github
 ```
-![image](https://github.com/user-attachments/assets/59dbd9fc-c1ce-4b18-b531-5e7a6576ced3)
+![image](https://github.com/user-attachments/assets/8f03ddbc-8c0a-41a1-a8df-4160055011c4)
 
+---
+# Latex數學表達式
 $$
-E=mc^2
+E = mc^2
 $$
-[Github](https://xianglibra.github.io/git_practice/)
-![這是圖片](https://picsum.photos/200/300)
-
-> 這是一個引用
+---
+[picsum.photos](https://picsum.photos/)
+---
+![picsum.photos/](https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI)
+![200/300](https://picsum.photos/200/300)
 ---
 
-| 表頭一 |表投二 |
-| ----- | ----- |
-| 單元格1 | 單元格2 |
-| 單元格3 | 單元格4 |
+
